@@ -1,0 +1,72 @@
+*{
+    font-family: Poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: #101820;
+    margin: 0;
+}
+h2{
+    letter-spacing: 1px;
+}
+#wrapper{
+    color: #101820;
+    background-color:#FEE715;
+    height: 30rem;
+    width: 25rem;
+    margin :100px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+#wrapper h2{
+    display: flex;
+    justify-content: center
+}
+#taskInput{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding-left: 10px;
+    height: 2rem;
+    width: auto;
+    width: 17rem;
+}
+#taskInput :active{
+    border:none;
+}
+#input-button{
+    justify-content: center;
+}
+#addButton{
+    height: 2.2rem;
+    margin-top: 1rem;
+    background-color: #101820;
+    color: #FEE715;
+    width: 6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    font-size: large;
+    border-radius: 0.3rem;
+    padding: 0rem 1.5rem;
+    padding-bottom: 0.2rem;
+
+    margin-left: 0.4rem;
+}
+#addButton:hover{
+    cursor: pointer;
+}
+#task-dispaly{
+    font-size: 2rem;
+    margin-top: 0.7rem;
+    color: white;
+}
+#task-display p{
+margin-top: 0.7rem;
+border: 2px solid #101820;
+border-radius: 0.3rem;
+padding: 0.3rem;
+}
+#task-display:hover
+{
+    cursor: pointer;
+}
